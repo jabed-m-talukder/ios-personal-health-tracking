@@ -2,8 +2,8 @@
 //  NewMomViewController.swift
 //  ios-meeting-of-minutes
 //
-//  Created by BJIT-2015 on 11/30/16.
-//  Copyright © 2016 BJIT-2015. All rights reserved.
+//  Created by Talukder on 11/30/16.
+//  Copyright © 2016 Talukder. All rights reserved.
 //
 
 import UIKit
@@ -99,10 +99,15 @@ class NewMomViewController: UIViewController, UITextViewDelegate {
             }
             print("response", response)
             let alert = UIAlertController(title: "Alert", message: "Message", preferredStyle: UIAlertControllerStyle.alert)
-            alert.addAction(UIAlertAction(title: "Click", style: UIAlertActionStyle.default, handler: {action in self.clearAllField()}))
+            alert.addAction(UIAlertAction(title: "Click", style: UIAlertActionStyle.default, handler: {action in self.backToPreviousView()}))
             self.present(alert, animated: true, completion: nil)
         }
         task.resume()
+    }
+    
+    func backToPreviousView(){
+        clearAllField()
+        self.navigationController?.popViewController(animated: true)
     }
     
     func clearAllField(){

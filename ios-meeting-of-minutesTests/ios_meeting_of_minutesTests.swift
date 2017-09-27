@@ -2,8 +2,8 @@
 //  ios_meeting_of_minutesTests.swift
 //  ios-meeting-of-minutesTests
 //
-//  Created by BJIT-2015 on 11/16/16.
-//  Copyright © 2016 BJIT-2015. All rights reserved.
+//  Created by Talukder on 11/16/16.
+//  Copyright © 2016 Talukder. All rights reserved.
 //
 
 import XCTest
@@ -28,7 +28,7 @@ class ios_meeting_of_minutesTests: XCTestCase {
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }

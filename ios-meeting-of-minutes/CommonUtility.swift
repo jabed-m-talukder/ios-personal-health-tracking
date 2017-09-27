@@ -2,8 +2,8 @@
 //  CommonUtility.swift
 //  ios-meeting-of-minutes
 //
-//  Created by BJIT-2015 on 11/28/16.
-//  Copyright © 2016 BJIT-2015. All rights reserved.
+//  Created by Talukder on 11/28/16.
+//  Copyright © 2016 Talukder. All rights reserved.
 //
 
 import Foundation
@@ -62,6 +62,8 @@ class CommonUtility{
             guard let realResponse = response as? HTTPURLResponse ,
                 realResponse.statusCode == 200 else {
                     print("Not a 200 response")
+                    self.subjectlist.append("Not a 200 response")
+                    getSubjectCompletionHandler(self.subjectlist)
                     return
             }
             

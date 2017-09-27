@@ -2,8 +2,8 @@
 //  MomsTableViewController.swift
 //  ios-meeting-of-minutes
 //
-//  Created by BJIT-2015 on 11/28/16.
-//  Copyright © 2016 BJIT-2015. All rights reserved.
+//  Created by Talukder on 11/28/16.
+//  Copyright © 2016 Talukder. All rights reserved.
 //
 
 import UIKit
@@ -18,7 +18,18 @@ class MomsTableViewController: UITableViewController {
         super.viewDidLoad()
         commutil.getAllMoms(apiEndPoint: getAllApiEndPoint){ response in
             self.subjectList = response
-            self.tableView.reloadData()
+            let res: String = self.subjectList.first!
+            
+            if res == "Not a 200 response" {
+                let alert = UIAlertController(title: "Server Error", message: "Please check the server status", preferredStyle: UIAlertControllerStyle.alert)
+                alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: {action in self.backToPreviousView()}))
+                self.present(alert, animated: true, completion: nil)
+            } else {
+                self.tableView.reloadData()
+
+                
+            }
+
         }
         
         // Uncomment the following line to preserve selection between presentations
@@ -53,7 +64,14 @@ class MomsTableViewController: UITableViewController {
         return cell
     }
 
-
+    func backToMainView(){
+        let mainViewController = self.storyboard?.instantiateViewController(withIdentifier: "MainViewController") as! MainViewController
+        self.navigationController?.pushViewController(mainViewController, animated: true)
+    }
+    
+    func backToPreviousView(){
+        self.navigationController?.popViewController(animated: true)
+    }
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {

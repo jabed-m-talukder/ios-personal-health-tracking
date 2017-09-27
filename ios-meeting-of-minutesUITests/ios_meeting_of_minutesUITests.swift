@@ -2,8 +2,8 @@
 //  ios_meeting_of_minutesUITests.swift
 //  ios-meeting-of-minutesUITests
 //
-//  Created by BJIT-2015 on 11/16/16.
-//  Copyright © 2016 BJIT-2015. All rights reserved.
+//  Created by Talukder on 11/16/16.
+//  Copyright © 2016 Talukder. All rights reserved.
 //
 
 import XCTest

@@ -2,8 +2,8 @@
 //  CMDataViewController.swift
 //  ios-meeting-of-minutes
 //
-//  Created by BJIT-2015 on 12/2/16.
-//  Copyright © 2016 BJIT-2015. All rights reserved.
+//  Created by Talukder on 12/2/16.
+//  Copyright © 2016 Talukder. All rights reserved.
 //
 
 import UIKit
@@ -16,25 +16,29 @@ class CMDataViewController: UIViewController {
     
     let activityManager = CMMotionActivityManager()
     let pedoMeter = CMPedometer()
+    let lenthFormatter = LengthFormatter()
+    
+    
+    @IBOutlet weak var imgState: UIImageView!
     
     @IBOutlet weak var txtState: UITextField!
-    @IBOutlet weak var txtSteps: UITextField!
-    @IBOutlet weak var txtStepsToday: UITextField!
-    @IBOutlet weak var imgState: UIImageView!
-    @IBOutlet weak var txtStepsTodayInKm: UITextField!
-    @IBOutlet weak var txtStepsRangeInKm: UITextField!
-    @IBOutlet weak var txtAvgTime: UITextField!
-    @IBOutlet weak var txtAvgPaceRange: UITextField!
+    
+    @IBOutlet weak var lblStepsToday: UILabel!
+    @IBOutlet weak var lblStepsInKm: UILabel!
+    @IBOutlet weak var lblTodayTime: UILabel!
+    
+    @IBOutlet weak var lblStepsWeeksRange: UILabel!
+    @IBOutlet weak var lblStepsWeekRangeInKm: UILabel!
+    @IBOutlet weak var lblWeeksTime: UILabel!
+    
+
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        txtState.isEnabled = false
-        txtSteps.isEnabled = false
-        txtStepsToday.isEnabled = false
-        txtStepsTodayInKm.isEnabled = false
-        txtStepsRangeInKm.isEnabled = false
-        
+        lenthFormatter.numberFormatter.usesSignificantDigits = false
+        lenthFormatter.numberFormatter.maximumSignificantDigits = 2
+        lenthFormatter.unitStyle = .short
         getMData()
 
         // Do any additional setup after loading the view.
@@ -78,24 +82,24 @@ class CMDataViewController: UIViewController {
                 DispatchQueue.main.async(execute: { () -> Void in
                     if(data?.stationary == true){
                         self.imgState.image = UIImage(named: "Counselor_100")
-                        self.imgState.contentMode = .center
-                        self.txtState.text = "Stationary"
+//                        self.imgState.contentMode = .center
+//                        self.txtState.text = "Stationary"
                         print("stationary or unknown")
                     } else if (data?.walking == true){
-                        self.txtState.text = "Walking"
+//                        self.txtState.text = "Walking"
                         self.imgState.image = UIImage(named: "Walking_100")
                         self.imgState.contentMode = .center
                         print("Walking")
                     } else if (data?.running == true){
-                        self.txtState.text = "Running"
+//                        self.txtState.text = "Running"
                         self.imgState.image = UIImage(named: "Running_100")
                          print("Running")
                     } else if (data?.automotive == true){
-                        self.txtState.text = "Automotive"
+//                        self.txtState.text = "Automotive"
                         self.imgState.image = UIImage(named: "Driver_100")
                         print("Automotive")
                     } else if (data?.cycling == true){
-                        self.txtState.text = "Cycling"
+//                        self.txtState.text = "Cycling"
                         self.imgState.image = UIImage(named: "Cycling Road_100")
                     }
                 })
@@ -112,23 +116,26 @@ class CMDataViewController: UIViewController {
                     if(error == nil){
                         // Steps
                         if let stepsRange = data?.numberOfSteps {
-                            self.txtSteps.text = String(describing: stepsRange)
+                            self.lblStepsWeeksRange.text = String(describing: stepsRange)
                         } else {
-                            self.txtSteps.text = "No data"
+                            self.lblStepsWeeksRange.text = "No data"
                         }
                         // In km
                         if let stepRangeKmData = data?.distance {
-                            let kmData = stepRangeKmData.floatValue / 1000
+                            let metersData = stepRangeKmData.floatValue
+                            let kmData = stepRangeKmData.doubleValue / 1000
                             if #available(iOS 10.0, *) {
-                                let timeData = data?.averageActivePace?.intValue
-                                self.txtAvgPaceRange.text = String(describing: timeData)
+                                let timeData = data?.averageActivePace?.floatValue
+                                let walkingTime = String(format: "%.02f", (timeData! * metersData)/60)
+                                self.lblWeeksTime.text = walkingTime + " Mins"
                             } else {
                                 // Fallback on earlier versions
-                                self.txtAvgPaceRange.isHidden = true
+                                self.lblWeeksTime.text = "0 Mins"
                             }
-                            self.txtStepsRangeInKm.text = String(describing: kmData)
+//                            self.lblStepsWeekRangeInKm.text = String(describing: kmData)
+                            self.lblStepsWeekRangeInKm.text = self.lenthFormatter.string(fromValue: kmData, unit: .kilometer)
                         } else {
-                            self.txtStepsRangeInKm.text = "No data"
+                            self.lblStepsWeekRangeInKm.text = "No data"
                         }
                     }
                 })
@@ -138,24 +145,30 @@ class CMDataViewController: UIViewController {
                 DispatchQueue.main.async(execute: { () -> Void in
                     if(error == nil){
                         if let stepsToday = data?.numberOfSteps {
-                            self.txtStepsToday.text = "\(stepsToday)"
+                            self.lblStepsToday.text = "\(stepsToday)"
                         } else {
-                            self.txtStepsToday.text = "No data for today"
+                            self.lblStepsToday.text = "No data for today"
                         }
                         // In km
                         if let stepKmData = data?.distance {
-                            let kmData = stepKmData.floatValue / 1000
+                            let metersData = stepKmData.doubleValue
+                            let kmData = stepKmData.doubleValue / 1000
                             if #available(iOS 10.0, *) {
-                                let timeData = data?.averageActivePace?.intValue
-                                self.txtAvgTime.text = String(describing: timeData)
+                                let timeData = data?.averageActivePace?.doubleValue
+                                let walkingTimeDaily = String(format: "%.02f", (timeData! * metersData)/60)
+                                self.lblTodayTime.text = walkingTimeDaily + " Mins"
+//                                self.lblTodayTime.text = self.lenthFormatter.string(fromValue: times, unit: <#T##LengthFormatter.Unit#>)
                             } else {
                                 // Fallback on earlier versions
-                                self.txtAvgTime.isHidden = true
+                                self.lblTodayTime.text = "0 Mins"
                             }
                             
-                            self.txtStepsTodayInKm.text = String(describing: kmData)
+//                            self.lblStepsInKm.text = String(describing: kmData)
+//                            self.lblStepsInKm.text = self.lenthFormatter.string(fromMeters: stepKmData.doubleValue)
+                            self.lblStepsInKm.text = self.lenthFormatter.string(fromValue: kmData, unit: .kilometer)
+                            
                         } else {
-                            self.txtStepsTodayInKm.text = "No data"
+                            self.lblStepsInKm.text = "No data"
                         }
                     }
                 })
