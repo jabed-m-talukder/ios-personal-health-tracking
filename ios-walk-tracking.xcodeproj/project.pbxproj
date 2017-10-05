@@ -7,26 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20FEB1FB960285E4232B93B1 /* Pods_ios_meeting_of_minutesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E62909409C7C0B607EC4A6BE /* Pods_ios_meeting_of_minutesUITests.framework */; };
-		36360B8F3CECE87A04F92E6A /* Pods_ios_meeting_of_minutes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930DB79E191999E12158EA6A /* Pods_ios_meeting_of_minutes.framework */; };
-		A8080C591DFFE7A20032AD0A /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8080C581DFFE7A20032AD0A /* CellView.swift */; };
-		A8080C5B1DFFE7AB0032AD0A /* CellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8080C5A1DFFE7AB0032AD0A /* CellView.xib */; };
 		A8103EA51DF139D900ADE38C /* CMDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8103EA41DF139D900ADE38C /* CMDataViewController.swift */; };
 		A841647B1DFAA246001B6CFD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A841647A1DFAA246001B6CFD /* Constants.swift */; };
-		A87374751DEBEC060056371F /* MomsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87374741DEBEC060056371F /* MomsTableViewController.swift */; };
-		A87374771DEBF2A10056371F /* CommonUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87374761DEBF2A10056371F /* CommonUtility.swift */; };
 		A890E49A1F7258A1007FF6DE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A890E4991F7258A1007FF6DE /* HomeViewController.swift */; };
-		A8A7C60D1DEEBF000014C67E /* NewMomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A7C60C1DEEBF000014C67E /* NewMomViewController.swift */; };
 		A8E07FF61DDC4B0800A4165C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E07FF51DDC4B0800A4165C /* AppDelegate.swift */; };
-		A8E07FF81DDC4B0800A4165C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E07FF71DDC4B0800A4165C /* ViewController.swift */; };
 		A8E07FFB1DDC4B0800A4165C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8E07FF91DDC4B0800A4165C /* Main.storyboard */; };
 		A8E080001DDC4B0800A4165C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8E07FFE1DDC4B0800A4165C /* LaunchScreen.storyboard */; };
 		A8E0800B1DDC4B0800A4165C /* ios_meeting_of_minutesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E0800A1DDC4B0800A4165C /* ios_meeting_of_minutesTests.swift */; };
 		A8E080161DDC4B0800A4165C /* ios_meeting_of_minutesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E080151DDC4B0800A4165C /* ios_meeting_of_minutesUITests.swift */; };
-		A8FC43D21E012D4F003C1E9C /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FC43D11E012D4F003C1E9C /* CalendarViewController.swift */; };
 		A8FEB4931DF16A7E00DA8BEA /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = A8FEB48F1DF16A7E00DA8BEA /* Contents.json */; };
 		A8FEB4951DF16EFF00DA8BEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8FEB4941DF16EFF00DA8BEA /* Images.xcassets */; };
-		BF0A205C599E12D2B4D59E08 /* Pods_ios_meeting_of_minutesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0997745B847AA09BED70B442 /* Pods_ios_meeting_of_minutesTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,38 +37,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		006FAF2521BE316D75EB93CA /* Pods-ios-meeting-of-minutesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-meeting-of-minutesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-meeting-of-minutesTests/Pods-ios-meeting-of-minutesTests.debug.xcconfig"; sourceTree = "<group>"; };
-		0997745B847AA09BED70B442 /* Pods_ios_meeting_of_minutesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_meeting_of_minutesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		534E87FA302E5969431C2C8D /* Pods-ios-meeting-of-minutesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-meeting-of-minutesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-meeting-of-minutesUITests/Pods-ios-meeting-of-minutesUITests.release.xcconfig"; sourceTree = "<group>"; };
-		930DB79E191999E12158EA6A /* Pods_ios_meeting_of_minutes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_meeting_of_minutes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A47BDD4E2F5C8EAF458FA7C2 /* Pods-ios-meeting-of-minutes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-meeting-of-minutes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-meeting-of-minutes/Pods-ios-meeting-of-minutes.debug.xcconfig"; sourceTree = "<group>"; };
-		A539EC5CDC2F9860141745CF /* Pods-ios-meeting-of-minutesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-meeting-of-minutesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-meeting-of-minutesUITests/Pods-ios-meeting-of-minutesUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		A8080C581DFFE7A20032AD0A /* CellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
-		A8080C5A1DFFE7AB0032AD0A /* CellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellView.xib; sourceTree = "<group>"; };
+		35B2BBEB5467ABFCF953B5A0 /* Pods-ios-walk-tracking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-walk-tracking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-walk-tracking/Pods-ios-walk-tracking.debug.xcconfig"; sourceTree = "<group>"; };
+		42E857AAEBAC0F6C1BC66306 /* Pods-ios-walk-trackingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-walk-trackingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-walk-trackingUITests/Pods-ios-walk-trackingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		449B0D8245580E7B8E998A30 /* Pods-ios-walk-trackingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-walk-trackingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-walk-trackingTests/Pods-ios-walk-trackingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		58E3D427B1D91FD257E90C67 /* Pods-ios-walk-trackingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-walk-trackingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-walk-trackingTests/Pods-ios-walk-trackingTests.release.xcconfig"; sourceTree = "<group>"; };
+		644A9D96F959FECE575C42F4 /* Pods-ios-walk-trackingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-walk-trackingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-walk-trackingUITests/Pods-ios-walk-trackingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		82B849E57AA54A215C303247 /* Pods-ios-walk-tracking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-walk-tracking.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-walk-tracking/Pods-ios-walk-tracking.release.xcconfig"; sourceTree = "<group>"; };
 		A8103EA41DF139D900ADE38C /* CMDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMDataViewController.swift; sourceTree = "<group>"; };
 		A841647A1DFAA246001B6CFD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		A87374741DEBEC060056371F /* MomsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomsTableViewController.swift; sourceTree = "<group>"; };
-		A87374761DEBF2A10056371F /* CommonUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtility.swift; sourceTree = "<group>"; };
 		A890E4991F7258A1007FF6DE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		A8A7C60C1DEEBF000014C67E /* NewMomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMomViewController.swift; sourceTree = "<group>"; };
-		A8E07FF21DDC4B0800A4165C /* ios-meeting-of-minutes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-meeting-of-minutes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8E07FF21DDC4B0800A4165C /* ios-walk-tracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-walk-tracking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E07FF51DDC4B0800A4165C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A8E07FF71DDC4B0800A4165C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A8E07FFA1DDC4B0800A4165C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8E07FFF1DDC4B0800A4165C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8E080011DDC4B0800A4165C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8E080061DDC4B0800A4165C /* ios-meeting-of-minutesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-meeting-of-minutesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8E080061DDC4B0800A4165C /* ios-walk-trackingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-walk-trackingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E0800A1DDC4B0800A4165C /* ios_meeting_of_minutesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_meeting_of_minutesTests.swift; sourceTree = "<group>"; };
 		A8E0800C1DDC4B0800A4165C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8E080111DDC4B0800A4165C /* ios-meeting-of-minutesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-meeting-of-minutesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8E080111DDC4B0800A4165C /* ios-walk-trackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-walk-trackingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E080151DDC4B0800A4165C /* ios_meeting_of_minutesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_meeting_of_minutesUITests.swift; sourceTree = "<group>"; };
 		A8E080171DDC4B0800A4165C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8FC43D11E012D4F003C1E9C /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		A8FEB48F1DF16A7E00DA8BEA /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Contents.json; path = Assets.xcassets/AppIcon.appiconset/Contents.json; sourceTree = "<group>"; };
 		A8FEB4941DF16EFF00DA8BEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		DDAA08EDFF87F92CB6CA46ED /* Pods-ios-meeting-of-minutes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-meeting-of-minutes.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-meeting-of-minutes/Pods-ios-meeting-of-minutes.release.xcconfig"; sourceTree = "<group>"; };
-		DEC30D2A1255F87D18BB91EE /* Pods-ios-meeting-of-minutesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-meeting-of-minutesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-meeting-of-minutesTests/Pods-ios-meeting-of-minutesTests.release.xcconfig"; sourceTree = "<group>"; };
-		E62909409C7C0B607EC4A6BE /* Pods_ios_meeting_of_minutesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_meeting_of_minutesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +66,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36360B8F3CECE87A04F92E6A /* Pods_ios_meeting_of_minutes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +73,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF0A205C599E12D2B4D59E08 /* Pods_ios_meeting_of_minutesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +80,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20FEB1FB960285E4232B93B1 /* Pods_ios_meeting_of_minutesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,9 +89,6 @@
 		452D64CDD672AAE3C69D6C15 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				930DB79E191999E12158EA6A /* Pods_ios_meeting_of_minutes.framework */,
-				0997745B847AA09BED70B442 /* Pods_ios_meeting_of_minutesTests.framework */,
-				E62909409C7C0B607EC4A6BE /* Pods_ios_meeting_of_minutesUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -130,9 +104,9 @@
 		A8E07FE91DDC4B0800A4165C = {
 			isa = PBXGroup;
 			children = (
-				A8E07FF41DDC4B0800A4165C /* ios-meeting-of-minutes */,
-				A8E080091DDC4B0800A4165C /* ios-meeting-of-minutesTests */,
-				A8E080141DDC4B0800A4165C /* ios-meeting-of-minutesUITests */,
+				A8E07FF41DDC4B0800A4165C /* ios-walk-tracking */,
+				A8E080091DDC4B0800A4165C /* ios-walk-trackingTests */,
+				A8E080141DDC4B0800A4165C /* ios-walk-trackingUITests */,
 				A8E07FF31DDC4B0800A4165C /* Products */,
 				FAD9167EF68E9D053D08A480 /* Pods */,
 				452D64CDD672AAE3C69D6C15 /* Frameworks */,
@@ -142,63 +116,56 @@
 		A8E07FF31DDC4B0800A4165C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A8E07FF21DDC4B0800A4165C /* ios-meeting-of-minutes.app */,
-				A8E080061DDC4B0800A4165C /* ios-meeting-of-minutesTests.xctest */,
-				A8E080111DDC4B0800A4165C /* ios-meeting-of-minutesUITests.xctest */,
+				A8E07FF21DDC4B0800A4165C /* ios-walk-tracking.app */,
+				A8E080061DDC4B0800A4165C /* ios-walk-trackingTests.xctest */,
+				A8E080111DDC4B0800A4165C /* ios-walk-trackingUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A8E07FF41DDC4B0800A4165C /* ios-meeting-of-minutes */ = {
+		A8E07FF41DDC4B0800A4165C /* ios-walk-tracking */ = {
 			isa = PBXGroup;
 			children = (
-				A8FC43D11E012D4F003C1E9C /* CalendarViewController.swift */,
-				A8080C5A1DFFE7AB0032AD0A /* CellView.xib */,
-				A8080C581DFFE7A20032AD0A /* CellView.swift */,
 				A8103EA31DF1398000ADE38C /* CMData */,
 				A8E07FF51DDC4B0800A4165C /* AppDelegate.swift */,
-				A8E07FF71DDC4B0800A4165C /* ViewController.swift */,
 				A8E07FF91DDC4B0800A4165C /* Main.storyboard */,
 				A8FEB48F1DF16A7E00DA8BEA /* Contents.json */,
 				A8E07FFE1DDC4B0800A4165C /* LaunchScreen.storyboard */,
 				A8E080011DDC4B0800A4165C /* Info.plist */,
-				A87374741DEBEC060056371F /* MomsTableViewController.swift */,
-				A87374761DEBF2A10056371F /* CommonUtility.swift */,
-				A8A7C60C1DEEBF000014C67E /* NewMomViewController.swift */,
 				A8FEB4941DF16EFF00DA8BEA /* Images.xcassets */,
 				A841647A1DFAA246001B6CFD /* Constants.swift */,
 				A890E4991F7258A1007FF6DE /* HomeViewController.swift */,
 			);
-			path = "ios-meeting-of-minutes";
+			path = "ios-walk-tracking";
 			sourceTree = "<group>";
 		};
-		A8E080091DDC4B0800A4165C /* ios-meeting-of-minutesTests */ = {
+		A8E080091DDC4B0800A4165C /* ios-walk-trackingTests */ = {
 			isa = PBXGroup;
 			children = (
 				A8E0800A1DDC4B0800A4165C /* ios_meeting_of_minutesTests.swift */,
 				A8E0800C1DDC4B0800A4165C /* Info.plist */,
 			);
-			path = "ios-meeting-of-minutesTests";
+			path = "ios-walk-trackingTests";
 			sourceTree = "<group>";
 		};
-		A8E080141DDC4B0800A4165C /* ios-meeting-of-minutesUITests */ = {
+		A8E080141DDC4B0800A4165C /* ios-walk-trackingUITests */ = {
 			isa = PBXGroup;
 			children = (
 				A8E080151DDC4B0800A4165C /* ios_meeting_of_minutesUITests.swift */,
 				A8E080171DDC4B0800A4165C /* Info.plist */,
 			);
-			path = "ios-meeting-of-minutesUITests";
+			path = "ios-walk-trackingUITests";
 			sourceTree = "<group>";
 		};
 		FAD9167EF68E9D053D08A480 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A47BDD4E2F5C8EAF458FA7C2 /* Pods-ios-meeting-of-minutes.debug.xcconfig */,
-				DDAA08EDFF87F92CB6CA46ED /* Pods-ios-meeting-of-minutes.release.xcconfig */,
-				006FAF2521BE316D75EB93CA /* Pods-ios-meeting-of-minutesTests.debug.xcconfig */,
-				DEC30D2A1255F87D18BB91EE /* Pods-ios-meeting-of-minutesTests.release.xcconfig */,
-				A539EC5CDC2F9860141745CF /* Pods-ios-meeting-of-minutesUITests.debug.xcconfig */,
-				534E87FA302E5969431C2C8D /* Pods-ios-meeting-of-minutesUITests.release.xcconfig */,
+				35B2BBEB5467ABFCF953B5A0 /* Pods-ios-walk-tracking.debug.xcconfig */,
+				82B849E57AA54A215C303247 /* Pods-ios-walk-tracking.release.xcconfig */,
+				449B0D8245580E7B8E998A30 /* Pods-ios-walk-trackingTests.debug.xcconfig */,
+				58E3D427B1D91FD257E90C67 /* Pods-ios-walk-trackingTests.release.xcconfig */,
+				644A9D96F959FECE575C42F4 /* Pods-ios-walk-trackingUITests.debug.xcconfig */,
+				42E857AAEBAC0F6C1BC66306 /* Pods-ios-walk-trackingUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -206,29 +173,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A8E07FF11DDC4B0800A4165C /* ios-meeting-of-minutes */ = {
+		A8E07FF11DDC4B0800A4165C /* ios-walk-tracking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8E0801A1DDC4B0800A4165C /* Build configuration list for PBXNativeTarget "ios-meeting-of-minutes" */;
+			buildConfigurationList = A8E0801A1DDC4B0800A4165C /* Build configuration list for PBXNativeTarget "ios-walk-tracking" */;
 			buildPhases = (
 				300027CE1C75475D00619DBA /* [CP] Check Pods Manifest.lock */,
 				A8E07FEE1DDC4B0800A4165C /* Sources */,
 				A8E07FEF1DDC4B0800A4165C /* Frameworks */,
 				A8E07FF01DDC4B0800A4165C /* Resources */,
-				0DF5FB15855059C7EDDF276E /* [CP] Embed Pods Frameworks */,
-				BF3FD466F8FC0C5C14CB7BCF /* [CP] Copy Pods Resources */,
+				D12CB9B294ABE5DE528D7315 /* [CP] Embed Pods Frameworks */,
+				0DD1441C25883D18E0BFA4E6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "ios-meeting-of-minutes";
+			name = "ios-walk-tracking";
 			productName = "ios-meeting-of-minutes";
-			productReference = A8E07FF21DDC4B0800A4165C /* ios-meeting-of-minutes.app */;
+			productReference = A8E07FF21DDC4B0800A4165C /* ios-walk-tracking.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A8E080051DDC4B0800A4165C /* ios-meeting-of-minutesTests */ = {
+		A8E080051DDC4B0800A4165C /* ios-walk-trackingTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8E0801D1DDC4B0800A4165C /* Build configuration list for PBXNativeTarget "ios-meeting-of-minutesTests" */;
+			buildConfigurationList = A8E0801D1DDC4B0800A4165C /* Build configuration list for PBXNativeTarget "ios-walk-trackingTests" */;
 			buildPhases = (
 				676D788D58DA1DD55C222715 /* [CP] Check Pods Manifest.lock */,
 				A8E080021DDC4B0800A4165C /* Sources */,
@@ -242,14 +209,14 @@
 			dependencies = (
 				A8E080081DDC4B0800A4165C /* PBXTargetDependency */,
 			);
-			name = "ios-meeting-of-minutesTests";
+			name = "ios-walk-trackingTests";
 			productName = "ios-meeting-of-minutesTests";
-			productReference = A8E080061DDC4B0800A4165C /* ios-meeting-of-minutesTests.xctest */;
+			productReference = A8E080061DDC4B0800A4165C /* ios-walk-trackingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A8E080101DDC4B0800A4165C /* ios-meeting-of-minutesUITests */ = {
+		A8E080101DDC4B0800A4165C /* ios-walk-trackingUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8E080201DDC4B0800A4165C /* Build configuration list for PBXNativeTarget "ios-meeting-of-minutesUITests" */;
+			buildConfigurationList = A8E080201DDC4B0800A4165C /* Build configuration list for PBXNativeTarget "ios-walk-trackingUITests" */;
 			buildPhases = (
 				4BABE11BC1D4A143B7DC6E37 /* [CP] Check Pods Manifest.lock */,
 				A8E0800D1DDC4B0800A4165C /* Sources */,
@@ -263,9 +230,9 @@
 			dependencies = (
 				A8E080131DDC4B0800A4165C /* PBXTargetDependency */,
 			);
-			name = "ios-meeting-of-minutesUITests";
+			name = "ios-walk-trackingUITests";
 			productName = "ios-meeting-of-minutesUITests";
-			productReference = A8E080111DDC4B0800A4165C /* ios-meeting-of-minutesUITests.xctest */;
+			productReference = A8E080111DDC4B0800A4165C /* ios-walk-trackingUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -295,7 +262,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A8E07FED1DDC4B0800A4165C /* Build configuration list for PBXProject "ios-meeting-of-minutes" */;
+			buildConfigurationList = A8E07FED1DDC4B0800A4165C /* Build configuration list for PBXProject "ios-walk-tracking" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -308,9 +275,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A8E07FF11DDC4B0800A4165C /* ios-meeting-of-minutes */,
-				A8E080051DDC4B0800A4165C /* ios-meeting-of-minutesTests */,
-				A8E080101DDC4B0800A4165C /* ios-meeting-of-minutesUITests */,
+				A8E07FF11DDC4B0800A4165C /* ios-walk-tracking */,
+				A8E080051DDC4B0800A4165C /* ios-walk-trackingTests */,
+				A8E080101DDC4B0800A4165C /* ios-walk-trackingUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -323,7 +290,6 @@
 				A8E080001DDC4B0800A4165C /* LaunchScreen.storyboard in Resources */,
 				A8FEB4951DF16EFF00DA8BEA /* Images.xcassets in Resources */,
 				A8E07FFB1DDC4B0800A4165C /* Main.storyboard in Resources */,
-				A8080C5B1DFFE7AB0032AD0A /* CellView.xib in Resources */,
 				A8FEB4931DF16A7E00DA8BEA /* Contents.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,22 +311,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0DF5FB15855059C7EDDF276E /* [CP] Embed Pods Frameworks */ = {
+		0DD1441C25883D18E0BFA4E6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ios-meeting-of-minutes/Pods-ios-meeting-of-minutes-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-meeting-of-minutes/Pods-ios-meeting-of-minutes-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-walk-tracking/Pods-ios-walk-tracking-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		268095B51179829413ED127E /* [CP] Copy Pods Resources */ = {
@@ -375,7 +338,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-meeting-of-minutesUITests/Pods-ios-meeting-of-minutesUITests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-walk-trackingUITests/Pods-ios-walk-trackingUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		300027CE1C75475D00619DBA /* [CP] Check Pods Manifest.lock */ = {
@@ -389,7 +352,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ios-meeting-of-minutes-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ios-walk-tracking-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -407,7 +370,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ios-meeting-of-minutesUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ios-walk-trackingUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -426,7 +389,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-meeting-of-minutesTests/Pods-ios-meeting-of-minutesTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-walk-trackingTests/Pods-ios-walk-trackingTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		676D788D58DA1DD55C222715 /* [CP] Check Pods Manifest.lock */ = {
@@ -440,7 +403,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ios-meeting-of-minutesTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ios-walk-trackingTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -459,22 +422,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-meeting-of-minutesUITests/Pods-ios-meeting-of-minutesUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BF3FD466F8FC0C5C14CB7BCF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-meeting-of-minutes/Pods-ios-meeting-of-minutes-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-walk-trackingUITests/Pods-ios-walk-trackingUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CB740828BFECC95468C88E46 /* [CP] Copy Pods Resources */ = {
@@ -489,7 +437,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-meeting-of-minutesTests/Pods-ios-meeting-of-minutesTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-walk-trackingTests/Pods-ios-walk-trackingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D12CB9B294ABE5DE528D7315 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-walk-tracking/Pods-ios-walk-tracking-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -499,16 +462,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8A7C60D1DEEBF000014C67E /* NewMomViewController.swift in Sources */,
-				A8E07FF81DDC4B0800A4165C /* ViewController.swift in Sources */,
 				A8103EA51DF139D900ADE38C /* CMDataViewController.swift in Sources */,
-				A87374751DEBEC060056371F /* MomsTableViewController.swift in Sources */,
 				A841647B1DFAA246001B6CFD /* Constants.swift in Sources */,
 				A890E49A1F7258A1007FF6DE /* HomeViewController.swift in Sources */,
 				A8E07FF61DDC4B0800A4165C /* AppDelegate.swift in Sources */,
-				A8FC43D21E012D4F003C1E9C /* CalendarViewController.swift in Sources */,
-				A87374771DEBF2A10056371F /* CommonUtility.swift in Sources */,
-				A8080C591DFFE7A20032AD0A /* CellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,12 +490,12 @@
 /* Begin PBXTargetDependency section */
 		A8E080081DDC4B0800A4165C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A8E07FF11DDC4B0800A4165C /* ios-meeting-of-minutes */;
+			target = A8E07FF11DDC4B0800A4165C /* ios-walk-tracking */;
 			targetProxy = A8E080071DDC4B0800A4165C /* PBXContainerItemProxy */;
 		};
 		A8E080131DDC4B0800A4165C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A8E07FF11DDC4B0800A4165C /* ios-meeting-of-minutes */;
+			target = A8E07FF11DDC4B0800A4165C /* ios-walk-tracking */;
 			targetProxy = A8E080121DDC4B0800A4165C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -650,13 +607,13 @@
 		};
 		A8E0801B1DDC4B0800A4165C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A47BDD4E2F5C8EAF458FA7C2 /* Pods-ios-meeting-of-minutes.debug.xcconfig */;
+			baseConfigurationReference = 35B2BBEB5467ABFCF953B5A0 /* Pods-ios-walk-tracking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = "ios-meeting-of-minutes/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ios-walk-tracking/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.talukder.ios-meeting-of-minutes";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.talukder.ios-walk-tracking";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
@@ -665,13 +622,13 @@
 		};
 		A8E0801C1DDC4B0800A4165C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDAA08EDFF87F92CB6CA46ED /* Pods-ios-meeting-of-minutes.release.xcconfig */;
+			baseConfigurationReference = 82B849E57AA54A215C303247 /* Pods-ios-walk-tracking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = "ios-meeting-of-minutes/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ios-walk-tracking/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.talukder.ios-meeting-of-minutes";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.talukder.ios-walk-tracking";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
@@ -680,7 +637,7 @@
 		};
 		A8E0801E1DDC4B0800A4165C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 006FAF2521BE316D75EB93CA /* Pods-ios-meeting-of-minutesTests.debug.xcconfig */;
+			baseConfigurationReference = 449B0D8245580E7B8E998A30 /* Pods-ios-walk-trackingTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "ios-meeting-of-minutesTests/Info.plist";
@@ -689,13 +646,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-meeting-of-minutes.app/ios-meeting-of-minutes";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-walk-tracking.app/ios-walk-tracking";
 			};
 			name = Debug;
 		};
 		A8E0801F1DDC4B0800A4165C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEC30D2A1255F87D18BB91EE /* Pods-ios-meeting-of-minutesTests.release.xcconfig */;
+			baseConfigurationReference = 58E3D427B1D91FD257E90C67 /* Pods-ios-walk-trackingTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "ios-meeting-of-minutesTests/Info.plist";
@@ -704,13 +661,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-meeting-of-minutes.app/ios-meeting-of-minutes";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-walk-tracking.app/ios-walk-tracking";
 			};
 			name = Release;
 		};
 		A8E080211DDC4B0800A4165C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A539EC5CDC2F9860141745CF /* Pods-ios-meeting-of-minutesUITests.debug.xcconfig */;
+			baseConfigurationReference = 644A9D96F959FECE575C42F4 /* Pods-ios-walk-trackingUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "ios-meeting-of-minutesUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -724,7 +681,7 @@
 		};
 		A8E080221DDC4B0800A4165C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 534E87FA302E5969431C2C8D /* Pods-ios-meeting-of-minutesUITests.release.xcconfig */;
+			baseConfigurationReference = 42E857AAEBAC0F6C1BC66306 /* Pods-ios-walk-trackingUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "ios-meeting-of-minutesUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -739,7 +696,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A8E07FED1DDC4B0800A4165C /* Build configuration list for PBXProject "ios-meeting-of-minutes" */ = {
+		A8E07FED1DDC4B0800A4165C /* Build configuration list for PBXProject "ios-walk-tracking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8E080181DDC4B0800A4165C /* Debug */,
@@ -748,7 +705,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8E0801A1DDC4B0800A4165C /* Build configuration list for PBXNativeTarget "ios-meeting-of-minutes" */ = {
+		A8E0801A1DDC4B0800A4165C /* Build configuration list for PBXNativeTarget "ios-walk-tracking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8E0801B1DDC4B0800A4165C /* Debug */,
@@ -757,7 +714,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8E0801D1DDC4B0800A4165C /* Build configuration list for PBXNativeTarget "ios-meeting-of-minutesTests" */ = {
+		A8E0801D1DDC4B0800A4165C /* Build configuration list for PBXNativeTarget "ios-walk-trackingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8E0801E1DDC4B0800A4165C /* Debug */,
@@ -766,7 +723,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8E080201DDC4B0800A4165C /* Build configuration list for PBXNativeTarget "ios-meeting-of-minutesUITests" */ = {
+		A8E080201DDC4B0800A4165C /* Build configuration list for PBXNativeTarget "ios-walk-trackingUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8E080211DDC4B0800A4165C /* Debug */,
